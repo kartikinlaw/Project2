@@ -31,12 +31,14 @@
   color: #fff;
 }
 
-.btn-secondary {
+.btn-secondary,
+.bg-secondary {
   background-color: #0284d0;
   color: #fff;
 }
 
-.btn-dark {
+.btn-dark,
+.bg-dark {
   background-color: #333;
   color: #fff;
 }
@@ -97,4 +99,40 @@
 
 .flex-column p {
   margin: 20px 0;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-header h2 {
+  font-size: 40px;
+  font-weight: 100;
+  margin: 20px 0px;
+}
+
+.section-header h4 {
+  margin-top: 10px;
+}
+
+.section-padding {
+  padding: 20px 20px 40px;
+}
+
+.flex-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px;
+}
+
+.flex-grid .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
 }
